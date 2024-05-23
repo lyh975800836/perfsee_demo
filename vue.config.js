@@ -7,7 +7,7 @@ module.exports = defineConfig({
         // ...
         new PerfseePlugin({
           project: 'perfsee-demo',
-          platform: 'http://localhost:3000'
+          platform: 'http://localhost:8080'
         //   enableAudit: true,
         })
     ]
